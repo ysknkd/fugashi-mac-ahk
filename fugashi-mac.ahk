@@ -13,6 +13,8 @@ is_not_target()
         Return 1
     IfWinActive, ahk_exe Code.exe
         Return 1
+    IfWinActive, ahk_exe vcxsrv.exe
+        Return 1
 
     Return 0
 }
