@@ -30,3 +30,10 @@ This AutoHotkey script is a key-bindings like a macOS.
 ## Usage
 
 Double click a `*.ahk` file.
+
+### Add windows startup
+
+1. `Win + R`
+1. `shell:startup`
+1. create a shortcut to fugashi-mac
+
