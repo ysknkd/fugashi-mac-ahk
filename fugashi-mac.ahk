@@ -86,6 +86,15 @@ Return
         Send, ^v ; Ctrl + v
 Return
 
+^h:: ; BackSpace
+    If is_not_target()
+        Send, %A_ThisHotkey%
+    Else
+    {
+        Send, {Backspace}
+    }
+Return
+
 ^d:: ; Delete
     If is_not_target()
         Send, %A_ThisHotkey%
