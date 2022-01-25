@@ -100,7 +100,7 @@ Return
         Send, %A_ThisHotkey%
     Else
     {
-        Send, {Del} ; Ctrl + v
+        Send, {Del}
     }
 Return 
 
